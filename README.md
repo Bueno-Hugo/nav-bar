@@ -8,4 +8,6 @@
 
 >Es un proyecto de prueba git-github
 
+![imagen](/images/img-1.png)
+
 
