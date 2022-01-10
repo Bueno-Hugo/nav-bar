@@ -1,10 +1,12 @@
 <!--este es un comentario en Markdown, idéntico a uno de Html-->
 # **HB**
 
-## **Barra de navegación Responsive** 
-<hr>
+## **Barra de navegación** 
 
 <br>
+
+* [ ] No responsive
+* [x] Respoinsive
 
 * Es una **barra de navegacion** sencilla que incluye Html-Css-Javascript.
 
@@ -14,7 +16,6 @@
 
 ![imagen](/images/img-1.png)
 
-* [ ] tarea 1
-* [x] tarea 2
+
 
 
