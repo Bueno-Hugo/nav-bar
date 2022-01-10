@@ -14,4 +14,7 @@
 
 ![imagen](/images/img-1.png)
 
+*[ ] tarea 1
+*[x] tarea 2
+
 
