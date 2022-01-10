@@ -1,5 +1,5 @@
 <!--este es un comentario en Markdown, idéntico a uno de Html-->
-# **----------------HB---------------**
+# **--------------------HB---------------**
 
 ## **Barra de navegación Responsive** 
 <hr>
