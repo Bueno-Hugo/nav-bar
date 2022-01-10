@@ -17,11 +17,6 @@
 ![imagen](/images/img-1.png)
 
 
-<<<<<<< HEAD
-<!--Github Markdown-->
 
 @Bueno-Hugo :boom: :dog:
-=======
 
-
->>>>>>> 859a81cf0eec1b74f749f4a28e7f031f5bdff90c
