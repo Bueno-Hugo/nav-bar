@@ -6,9 +6,9 @@
 
 <br>
 
-* Es una **barra de navegacion** sencilla que incluye Javascript.
+* Es una **barra de navegacion** sencilla que incluye Html-Css-Javascript.
 
->Es un proyecto de prueba git-github
+>Proyecto de prueba git/github.
 
 <br>
 
