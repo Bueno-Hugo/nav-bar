@@ -4,59 +4,68 @@
   }
   
   body {
+    width: 100%;
+    max-width: 75rem;
+    height: 100vh;
+    margin: 0 auto;
     font-family: sans-serif;
-    padding: 90px 0px 0;
+    position: relative;
+    font-size: 16px;
+    background-color: rgb(250, 243, 243);
   }
   
   .header {
-    background-color: #0769e9;
-    height: 80px;
-    position: fixed;
+    background-color: #303336;
+    height: 5rem;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: ;
   }
   
   .nav {
     display: flex;
     justify-content: space-between;
-    max-width: 992px;
-    margin: 0 auto;
+    align-items: center;
+    /*max-width: 992px;
+    margin: 0 auto;*/
   }
   
   .nav-link {
     color: white;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: 1px;
     text-decoration: none;
   }
   
   .logo {
-    font-size: 30px;
+    font-size: 1.6em;
     font-weight: bold;
-    padding: 0 40px;
+    padding: 0 20px;
     line-height: 80px;
   }
   
   .nav-menu {
     display: flex;
-    margin-right: 40px;
+    margin-right: 1.25rem;
     list-style: none;
   }
   
   .nav-menu-item {
-    font-size: 18px;
+    font-size: 1em;
     margin: 0 10px;
-    line-height: 80px;
     text-transform: uppercase;
-    width: max-content;
   }
   
   .nav-menu-link {
-    padding: 8px 12px;
+    padding: 5px 9px;
     border-radius: 3px;
   }
   
   .nav-menu-link:hover{
-    background-color: #034574;
+    color: rgb(185, 185, 216);
     transition: 0.5s;
   }
   
@@ -65,9 +74,8 @@
     color: white;
     background: none;
     border: none;
-    font-size: 30px;
+    font-size: 1.875em;
     padding: 0 20px;
-    line-height: 60px;
     cursor: pointer;
     display: none;
   }
@@ -76,13 +84,24 @@ main{
   padding: 0 20px;
 }
 
+h1{
+  font-size: 2.5em;
+  text-align: center;
+  margin: 2.25em 0 1.25em;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 1em;
+ text-align: justify;
+}
 
   .footer{
-    background-color: #0769e9;
-    height: 80px;
+    background-color: #303336;
+    height: 5rem;
     position: relative;
     width: 100%;
-    margin: 40px 0px 0px 0px;
+    margin-top: 2.5em;
     bottom: 0;
     left: 0;
     display: flex;
@@ -103,7 +122,7 @@ main{
   }
 
   .texts-link:hover{
-    color: #2c3e50;
+    color: #206cb8;
     text-decoration: underline;
   }
 
@@ -111,10 +130,10 @@ main{
   /* MOBILE */
   @media (max-width: 768px) {
     body {
-      padding-top: 70px;
+      padding-top: 0px;
     }
   
-    .header {
+   .header {
       height: 60px;
     }
   
@@ -132,13 +151,13 @@ main{
       position: fixed;
       top: 60px;
       width: 100%;
-      padding: 20px 0;
+      padding: 1.5625rem 0;
   
       height: calc(100% - 60px);
       overflow-y: auto;
   
       left: 100%;
-      transition: left 0.3s;
+      transition: left 0.5s;
     }
   
     .nav-menu-item {
